@@ -5,7 +5,7 @@ import logo from '../assets/logo.png'
 function Navbar() {
   return (
     <HStack>
-        <Image src={logo} boxSize="3.5rem"></Image>
+        <Image src={logo} boxSize="3.5rem" />
     </HStack>
   )
 }
