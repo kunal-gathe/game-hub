@@ -1,5 +1,6 @@
 import { Grid, GridItem, Show } from '@chakra-ui/react'
 import React from 'react'
+import GenreList from './components/GenreList'
 
 function App() {
   return <Grid templateAreas={{
@@ -8,7 +9,9 @@ function App() {
   }}>
     <GridItem area='nav' bg = 'coral'>Nav</GridItem>
     <Show above='lg'>
-    <GridItem area='aside' bg = 'gold'>aside</GridItem>
+    <GridItem area='aside' bg = 'gold'>
+      <GenreList />
+    </GridItem>
     </Show>
     <GridItem area='main' bg = 'dodgerblue'>Nav</GridItem>
   </Grid>
