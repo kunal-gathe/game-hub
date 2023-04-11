@@ -3,7 +3,7 @@ import apiClient from '../servicess/api-client';
 import { Text } from '@chakra-ui/layout';
 import { SimpleGrid, Skeleton } from '@chakra-ui/react'
 import useGames from '../hooks/useGames';
-import GameCardSkeleton from './gameCardSkeleton';
+import GameCardSkeleton from './GameCardSkeleton';
 
 
 
