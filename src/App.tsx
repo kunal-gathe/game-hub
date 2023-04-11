@@ -9,9 +9,7 @@ function App() {
   }}>
     <GridItem area='nav' bg = 'coral'>Nav</GridItem>
     <Show above='lg'>
-    <GridItem area='aside' bg = 'gold'>
-      <GenreList />
-    </GridItem>
+    <GridItem area='aside' bg = 'gold'><GenreList /></GridItem>
     </Show>
     <GridItem area='main' bg = 'dodgerblue'>Nav</GridItem>
   </Grid>
